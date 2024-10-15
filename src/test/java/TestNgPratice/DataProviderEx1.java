@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 public class DataProviderEx1 {
 //Hello
 	//Welcome
+	//pull back
 	@Test(dataProvider = "dataProviderData")
 	public void bookTickets(String src,String dest,int NumOfPpl)
 	{
